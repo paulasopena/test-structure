@@ -362,4 +362,7 @@ add_executable(obc
     lib/arch/Core/Inc/FreeRTOSConfig.h
     lib/arch/Core/Inc/stm32h7xx_hal_conf.h
     lib/arch/Core/Inc/stm32h7xx_it.h
+    lib/arch/Core/Src/stm32h7xx_it.c
+    lib/arch/Core/Src/stm32h7xx_hal_timebase_tim.c
+    lib/arch/Core/Src/stm32h7xx_hal_msp.c
 )
